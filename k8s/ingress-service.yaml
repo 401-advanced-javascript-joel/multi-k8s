@@ -12,10 +12,9 @@ spec:
   tls:
     - hosts:
         - raincityprogramming.com
-        - www.raincityprogramming.com
       secretName: raincityprogramming-com
   rules:
-    - host: www.raincityprogramming.com
+    - host: raincityprogramming.com
     - http:
         paths:
           - path: /?(.*)
